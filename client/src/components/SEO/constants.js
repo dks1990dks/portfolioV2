@@ -1,0 +1,42 @@
+export const DEFAULT_SEO = {
+  siteName: "Deepak Codes",
+  tagline: "Custom ERP, SaaS & Business Software Development",
+  siteUrl: "https://deepakcodes.com",
+  defaultTitle: "Deepak Codes | Custom ERP, SaaS & Software Development",
+  titleTemplate: "%s | Deepak Codes",
+  defaultDescription:
+    "Custom ERP software, SaaS platforms, and enterprise web application development. Specialized in full-stack React, Node.js, and tailored business automation solutions.",
+  defaultImage: "/social/og-default.webp",
+  defaultOgImage: "https://deepakcodes.com/social/og-default.webp",
+  twitterHandle: "@deepakcodes",
+  language: "en",
+  locale: "en_IN",
+  region: "IN",
+  author: "Deepak",
+  robots: "index, follow",
+  themeColor: "#0f172a",
+  keywords: [
+    "Custom Software Development",
+    "ERP Development",
+    "SaaS Development",
+    "React Developer",
+    "Node.js Developer",
+    "Full Stack Developer",
+    "Business Software Development",
+    "Business Automation",
+    "Web Application Development",
+    "Software Developer India",
+    "Freelance Full Stack Developer",
+  ],
+};
+
+export const BRAND = {
+  name: "Deepak Codes",
+  primary: "#06B6D4",
+  background: "#020617",
+  card: "#0F172A",
+  text: "#E2E8F0",
+  success: "#22C55E",
+  warning: "#F59E0B",
+  danger: "#EF4444",
+};
