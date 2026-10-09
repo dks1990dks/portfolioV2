@@ -2,7 +2,7 @@ import { trustStats } from "./contactData";
 
 export default function TrustSignals() {
   return (
-    <section className="py-20 bg-slate-900/40 border-y border-slate-800 text-white">
+    <section id="trust" className="py-20 bg-slate-900/40 border-y border-slate-800 text-white">
       <div className="max-w-7xl mx-auto px-6">
         {/* Statistics Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">

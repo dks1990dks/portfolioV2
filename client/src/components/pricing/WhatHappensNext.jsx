@@ -3,7 +3,7 @@ import { whatHappensNextSteps } from "./pricingData";
 
 export default function WhatHappensNext() {
   return (
-    <section className="py-24 bg-slate-900/40 text-white border-y border-slate-800">
+    <section id="next-steps" className="py-24 bg-slate-900/40 text-white border-y border-slate-800">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <span className="text-cyan-400 text-xs font-semibold uppercase tracking-wider">

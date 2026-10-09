@@ -5,7 +5,7 @@ export default function MissionVision() {
   const VisionIcon = vision.icon;
 
   return (
-    <section className="py-20 bg-slate-950 border-b border-slate-900 relative overflow-hidden">
+    <section id="mission-vision" className="py-20 bg-slate-950 border-b border-slate-900 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-8">
           {/* Mission */}

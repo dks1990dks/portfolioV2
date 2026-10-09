@@ -4,7 +4,7 @@ export default function TechStack({ project }) {
   if (technologies.length === 0) return null;
 
   return (
-    <section className="py-20 bg-slate-950 border-b border-slate-900">
+    <section id="technology" className="py-20 bg-slate-950 border-b border-slate-900">
       <div className="max-w-7xl mx-auto px-6 text-center">
 
         <span className="text-cyan-400 font-mono text-xs tracking-widest uppercase bg-cyan-500/5 px-3 py-1 rounded border border-cyan-500/10">

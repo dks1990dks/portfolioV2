@@ -2,7 +2,7 @@ import { coreServices } from "./pricingData";
 
 export default function CoreServices() {
   return (
-    <section className="py-20 bg-slate-950 text-white">
+    <section id="services" className="py-20 bg-slate-950 text-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <span className="text-cyan-400 text-xs font-semibold uppercase tracking-wider">

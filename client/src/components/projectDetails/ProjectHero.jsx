@@ -7,7 +7,7 @@ export default function ProjectHero({ project }) {
   const hasGithub = project.github && project.github !== "#";
 
   return (
-    <section className="relative overflow-hidden bg-slate-950 pt-36 pb-20 border-b border-slate-900">
+    <section id="hero" className="relative overflow-hidden bg-slate-950 pt-36 pb-20 border-b border-slate-900">
       {/* Ambient Background */}
       <div className="absolute inset-0 bg-linear-to-r from-cyan-500/5 via-transparent to-blue-500/5 blur-3xl pointer-events-none" />
 
@@ -76,7 +76,7 @@ export default function ProjectHero({ project }) {
 
               {/* Contact */}
               <Link
-                to="/contact"
+                to="/contact#discovery-form"
                 className="px-6 py-3 bg-slate-950 border border-slate-900 hover:border-cyan-500/20 text-cyan-400 hover:text-cyan-300 font-bold rounded-xl text-sm transition-colors duration-300"
               >
                 Contact

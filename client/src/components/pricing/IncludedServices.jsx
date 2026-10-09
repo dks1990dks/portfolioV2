@@ -15,7 +15,7 @@ const services = [
 
 export default function IncludedServices() {
   return (
-    <section className="py-24 bg-slate-900/40 text-white border-y border-slate-800">
+    <section id="deliverables" className="py-24 bg-slate-900/40 text-white border-y border-slate-800">
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center">
           <span className="text-cyan-400 text-xs font-semibold uppercase tracking-wider">

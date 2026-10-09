@@ -11,7 +11,7 @@ export default function ImageGallery({ images = [] }) {
   }
 
   return (
-    <section className="gallery-container">
+    <section id="gallery" className="gallery-container">
       {/* Screenshots Grid */}
       <div className="gallery-grid">
         {images.map((img, index) => (

@@ -2,7 +2,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 
 export default function Founder() {
   return (
-    <section className="py-24 bg-slate-950">
+    <section id="founder" className="py-24 bg-slate-950">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Photo */}

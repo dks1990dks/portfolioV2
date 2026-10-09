@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function AboutHero() {
   return (
-    <section className="relative overflow-hidden bg-slate-950 pt-32 pb-24 lg:pt-40 lg:pb-28">
+    <section id="hero" className="relative overflow-hidden bg-slate-950 pt-32 pb-24 lg:pt-40 lg:pb-28">
       <div className="absolute inset-0 bg-linear-to-r from-cyan-500/10 to-blue-500/10 blur-3xl pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-6">

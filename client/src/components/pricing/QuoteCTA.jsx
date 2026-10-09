@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function QuoteCTA() {
   return (
-    <section className="py-28 bg-slate-950 text-white relative overflow-hidden border-t border-slate-800/80">
+    <section id="cta" className="py-28 bg-slate-950 text-white relative overflow-hidden border-t border-slate-800/80">
       <div className="absolute inset-0 bg-linear-to-b from-cyan-500/5 to-transparent pointer-events-none" />
 
       <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
@@ -18,7 +18,7 @@ export default function QuoteCTA() {
 
         <div className="flex flex-wrap justify-center gap-4 mt-10">
           <Link
-            to="/contact"
+            to="/contact#discovery-form"
             className="rounded-xl bg-cyan-500 px-8 py-4 font-bold text-slate-950 hover:bg-cyan-400 transition shadow-lg shadow-cyan-500/20"
           >
             Request a Proposal

@@ -2,7 +2,7 @@ import { techExpertise } from "./pricingData";
 
 export default function TechExpertise() {
   return (
-    <section className="py-16 bg-slate-900/30 border-y border-slate-800 text-white">
+    <section id="technology" className="py-16 bg-slate-900/30 border-y border-slate-800 text-white">
       <div className="max-w-5xl mx-auto px-6 text-center">
         <h3 className="text-xs font-semibold uppercase tracking-wider text-cyan-400 mb-6">
           Technology Stack

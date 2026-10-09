@@ -27,7 +27,7 @@ export default function CaseStudyCard({
           <img
             src={image}
             alt={`${title} project screenshot`}
-            className="w-full aspect-video object-cover rounded-t-lg"
+            className="w-full aspect-video object-fill rounded-t-lg"
             loading="lazy"
           />
         )}

@@ -2,7 +2,7 @@ import { values } from "./data";
 
 export default function CoreValues() {
   return (
-    <section className="py-20 bg-slate-950 border-b border-slate-900">
+    <section id="values" className="py-20 bg-slate-950 border-b border-slate-900">
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">

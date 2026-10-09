@@ -8,8 +8,8 @@ import { industries } from "./industryData";
 
 export default function Industries() {
   return (
-    <Section className="bg-slate-950">
-        <BackgroundEffects />
+    <Section id="industries" className="bg-slate-950">
+      <BackgroundEffects />
       <Container>
         <SectionHeading
           subtitle="Industries"
@@ -18,10 +18,7 @@ export default function Industries() {
 
         <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-8">
           {industries.map((industry) => (
-            <IndustryCard
-              key={industry.title}
-              {...industry}
-            />
+            <IndustryCard key={industry.title} {...industry} />
           ))}
         </div>
       </Container>

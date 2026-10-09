@@ -1,6 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
+import ScrollToHash from "./components/common/ScrollToHash";
+
 // Primary Pages
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -21,9 +23,14 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
 
+
+
 const App = () => {
   return (
+    <>
+    <ScrollToHash />
     <Routes>
+      
       {/* Home Route */}
       <Route path="/" element={<Home />} />
 
@@ -56,6 +63,7 @@ const App = () => {
       <Route path="*" element={<NotFound />} />
       
     </Routes>
+    </>
   );
 };
 

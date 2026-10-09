@@ -9,7 +9,7 @@ export default function BusinessProblem({ project }) {
   }
 
   return (
-    <section className="py-16 bg-slate-950 border-b border-slate-900">
+    <section id="problem" className="py-16 bg-slate-950 border-b border-slate-900">
       <div className="max-w-6xl mx-auto px-6">
         <div className="mb-10">
           <span className="text-rose-400 font-mono text-xs tracking-widest uppercase bg-rose-500/10 px-3 py-1 rounded border border-rose-500/20">

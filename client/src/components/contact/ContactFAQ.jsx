@@ -6,7 +6,7 @@ export default function ContactFAQ() {
   const [openIdx, setOpenIdx] = useState(null);
 
   return (
-    <section className="py-20 bg-slate-950 text-white">
+    <section id="faq" className="py-20 bg-slate-950 text-white">
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-12">
           <span className="text-cyan-400 text-xs font-semibold uppercase tracking-wider">

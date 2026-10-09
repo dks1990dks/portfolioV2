@@ -41,7 +41,7 @@ export default function EngagementCard({
       </div>
 
       <Link
-        to="/contact"
+        to="/contact#discovery-form"
         className="mt-10 w-full rounded-xl bg-cyan-500 py-3.5 text-slate-950 text-center font-bold hover:bg-cyan-400 transition shadow-md shadow-cyan-500/10 block"
       >
         Request Proposal

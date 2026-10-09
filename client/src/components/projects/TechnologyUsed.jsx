@@ -2,7 +2,10 @@ import { globalTech } from "./projectsData";
 
 export default function TechnologyUsed() {
   return (
-    <section className="py-20 bg-slate-950 border-b border-slate-900">
+    <section
+      id="technology"
+      className="py-20 bg-slate-950 border-b border-slate-900"
+    >
       <div className="max-w-7xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-black text-white tracking-tight">
           Technology Stack

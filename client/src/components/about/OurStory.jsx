@@ -2,7 +2,7 @@ import Container from "../ui/Container/Container";
 
 export default function OurStory() {
   return (
-    <section className="bg-slate-950 py-20 border-b border-slate-900">
+    <section id="story" className="bg-slate-950 py-20 border-b border-slate-900">
       <Container>
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Story */}

@@ -2,7 +2,7 @@ import { valueProps } from "./pricingData";
 
 export default function WhyChooseUs() {
   return (
-    <section className="py-20 bg-slate-950 text-white">
+    <section id="why-choose-us" className="py-20 bg-slate-950 text-white">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold">

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function AboutCTA() {
   return (
-    <section className="py-28">
+    <section id="cta" className="py-28">
       <div className="max-w-6xl mx-auto px-6">
         <div className="rounded-3xl bg-linear-to-r from-cyan-600 to-blue-600 p-16 text-center">
           <h2 className="text-5xl font-black text-white">
@@ -16,7 +16,7 @@ export default function AboutCTA() {
           </p>
 
           <Link
-            to="/contact"
+            to="/contact#discovery-form"
             className="inline-block mt-12 bg-white text-slate-900 px-10 py-5 rounded-xl font-bold hover:scale-105 transition"
           >
             Start Your Project

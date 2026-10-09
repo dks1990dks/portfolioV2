@@ -19,7 +19,7 @@ export default function TechExpertise() {
 
     return (
 
-        <section className="py-24">
+        <section id="technology" className="py-24">
 
             <div className="max-w-7xl mx-auto px-6">
 

@@ -1,8 +1,5 @@
 import SEO from "../components/SEO";
-import { 
-  getOrganizationSchema, 
-  getServiceSchema 
-} from "../components/SEO";
+import { getOrganizationSchema, getServiceSchema } from "../components/SEO";
 
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/footer/Footer";
@@ -47,10 +44,11 @@ export default function Services() {
         schemas={[
           getOrganizationSchema(),
           getServiceSchema({
-            title: "Custom ERP, SaaS & Business Automation Development Services",
-            description: "Software solutions engineered around real business logic.",
+            title:
+              "Custom ERP, SaaS & Business Automation Development Services",
+            description:
+              "Software solutions engineered around real business logic.",
           }),
-          
         ]}
       />
 
@@ -70,7 +68,10 @@ export default function Services() {
           <FeaturedSolutions />
 
           {/* Comprehensive Functional Architecture Capabilities Grid */}
-          <section className="bg-slate-950 py-24 border-b border-slate-900">
+          <section
+            id="services"
+            className="bg-slate-950 py-24 border-b border-slate-900"
+          >
             <div className="max-w-7xl mx-auto px-6">
               <div className="max-w-3xl mb-16">
                 <p className="text-cyan-400 font-semibold tracking-widest text-xs uppercase">

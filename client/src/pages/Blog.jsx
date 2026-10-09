@@ -23,10 +23,16 @@ export default function Blog() {
         ]}
       />
 
-      <div className="min-h-screen bg-slate-950 text-slate-100 py-16 px-6 md:px-12">
+      <div
+        id="blog"
+        className="min-h-screen bg-slate-950 text-slate-100 py-16 px-6 md:px-12"
+      >
         <div className="max-w-5xl mx-auto space-y-10">
           {/* Header */}
-          <header className="space-y-3 text-center md:text-left border-b border-slate-800 pb-8">
+          <header
+            id="hero"
+            className="space-y-3 text-center md:text-left border-b border-slate-800 pb-8"
+          >
             <h1 className="text-4xl md:text-5xl font-extrabold text-white tracking-tight">
               Engineering Insights & Articles
             </h1>
@@ -38,7 +44,7 @@ export default function Blog() {
           </header>
 
           {/* Posts */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div id="articles" className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {blogPosts.map((post) => (
               <article
                 key={post.slug}
@@ -54,9 +60,7 @@ export default function Blog() {
                   </div>
 
                   <h2 className="text-xl font-bold text-white hover:text-cyan-400 transition-colors">
-                    <Link to={`/blog/${post.slug}`}>
-                      {post.title}
-                    </Link>
+                    <Link to={`/blog/${post.slug}`}>{post.title}</Link>
                   </h2>
 
                   <p className="text-slate-400 text-sm leading-relaxed">

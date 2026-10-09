@@ -26,7 +26,7 @@ export default function PrivacyPolicy() {
 
         <main className="text-slate-300 py-24 px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto space-y-8">
-            <header className="border-b border-slate-800 pb-8">
+            <header id="hero" className="border-b border-slate-800 pb-8">
               <h1 className="text-3xl sm:text-4xl font-bold text-white mb-2">
                 Privacy Policy
               </h1>
@@ -36,7 +36,7 @@ export default function PrivacyPolicy() {
               </p>
             </header>
 
-            <section className="space-y-4">
+            <section id="information-collected" className="space-y-4">
               <h2 className="text-xl font-semibold text-white">
                 1. Information We Collect
               </h2>
@@ -52,7 +52,7 @@ export default function PrivacyPolicy() {
               </p>
             </section>
 
-            <section className="space-y-4">
+            <section id="information-use" className="space-y-4">
               <h2 className="text-xl font-semibold text-white">
                 2. How We Use Your Information
               </h2>
@@ -76,7 +76,7 @@ export default function PrivacyPolicy() {
               </ul>
             </section>
 
-            <section className="space-y-4">
+            <section id="data-protection" className="space-y-4">
               <h2 className="text-xl font-semibold text-white">
                 3. Data Protection & Confidentiality
               </h2>
@@ -89,7 +89,7 @@ export default function PrivacyPolicy() {
               </p>
             </section>
 
-            <section className="space-y-4">
+            <section id="cookies-analytics" className="space-y-4">
               <h2 className="text-xl font-semibold text-white">
                 4. Cookies & Analytics
               </h2>
@@ -102,7 +102,7 @@ export default function PrivacyPolicy() {
               </p>
             </section>
 
-            <section className="space-y-4">
+            <section id="third-party-services" className="space-y-4">
               <h2 className="text-xl font-semibold text-white">
                 5. Third-Party Services
               </h2>
@@ -115,7 +115,7 @@ export default function PrivacyPolicy() {
               </p>
             </section>
 
-            <section className="space-y-4">
+            <section id="contact" className="space-y-4">
               <h2 className="text-xl font-semibold text-white">
                 6. Contact Information
               </h2>

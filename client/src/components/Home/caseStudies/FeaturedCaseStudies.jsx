@@ -7,33 +7,30 @@ import { projects } from "../../projects/projectsData";
 import CaseStudyCard from "./CaseStudyCard";
 
 export default function FeaturedCaseStudies() {
-    const featuredProjects = projects
-        .filter((project) => project.featured)
-        .slice(0, 4);
+  const featuredProjects = projects
+    .filter((project) => project.featured)
+    .slice(0, 4);
 
-    if (featuredProjects.length === 0) {
-        return null;
-    }
+  if (featuredProjects.length === 0) {
+    return null;
+  }
 
-    return (
-        <Section className="bg-slate-950 dark overflow-hidden">
-            <BackgroundEffects />
+  return (
+    <Section id="projects" className="bg-slate-950 dark overflow-hidden">
+      <BackgroundEffects />
 
-            <Container>
-                <SectionHeading
-                    subtitle="Case Studies"
-                    title="Business Software That Delivers Results"
-                />
+      <Container>
+        <SectionHeading
+          subtitle="Case Studies"
+          title="Business Software That Delivers Results"
+        />
 
-                <div className="space-y-12">
-                    {featuredProjects.map((project) => (
-                        <CaseStudyCard
-                            key={project.id}
-                            {...project}
-                        />
-                    ))}
-                </div>
-            </Container>
-        </Section>
-    );
+        <div className="space-y-12">
+          {featuredProjects.map((project) => (
+            <CaseStudyCard key={project.id} {...project} />
+          ))}
+        </div>
+      </Container>
+    </Section>
+  );
 }

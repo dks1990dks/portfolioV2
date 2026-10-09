@@ -5,7 +5,7 @@ import Container from "../../ui/Container/Container";
 
 export default function CTA() {
   return (
-    <Section className="relative overflow-hidden">
+    <Section id="cta" className="relative overflow-hidden">
       <div className="absolute inset-0 bg-linear-to-r from-cyan-600/20 to-blue-600/20 blur-3xl" />
 
       <Container>

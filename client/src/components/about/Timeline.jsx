@@ -29,7 +29,7 @@ const timelineData = [
 
 export default function Timeline() {
   return (
-    <section className="py-24 bg-slate-950 border-b border-slate-900">
+    <section id="timeline" className="py-24 bg-slate-950 border-b border-slate-900">
       <div className="max-w-4xl mx-auto px-6">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-20">

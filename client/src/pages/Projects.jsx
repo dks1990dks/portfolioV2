@@ -47,7 +47,7 @@ export default function Projects() {
         project.industry?.toLowerCase().includes(normalizedSearch) ||
         project.category?.toLowerCase().includes(normalizedSearch) ||
         project.technologies?.some((tech) =>
-          tech.toLowerCase().includes(normalizedSearch)
+          tech.toLowerCase().includes(normalizedSearch),
         );
 
       return matchesCategory && matchesStatus && matchesSearch;
@@ -92,7 +92,10 @@ export default function Projects() {
 
           {showFeatured && <FeaturedProjects />}
 
-          <section className="py-16 bg-slate-950 border-b border-slate-900">
+          <section
+            id="projects"
+            className="py-16 bg-slate-950 border-b border-slate-900"
+          >
             <div className="max-w-7xl mx-auto px-6">
               <div className="flex flex-col gap-8 mb-12 pb-8 border-b border-slate-900">
                 <ProjectFilter

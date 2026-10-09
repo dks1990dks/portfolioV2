@@ -6,7 +6,7 @@ export default function ModuleOverview({ project }) {
   if (modules.length === 0) return null;
 
   return (
-    <section className="py-16 bg-slate-950 border-b border-slate-900">
+    <section id="modules" className="py-16 bg-slate-950 border-b border-slate-900">
       <div className="max-w-6xl mx-auto px-6">
 
         <div className="mb-8">

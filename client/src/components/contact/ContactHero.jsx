@@ -1,6 +1,6 @@
 export default function ContactHero() {
   return (
-    <section className="relative pt-32 pb-20 bg-slate-950 text-white overflow-hidden border-b border-slate-800/80">
+    <section id="hero" className="relative pt-32 pb-20 bg-slate-950 text-white overflow-hidden border-b border-slate-800/80">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-150 h-75 bg-cyan-500/10 blur-[120px] rounded-full pointer-events-none" />
 
       <div className="max-w-5xl mx-auto px-6 text-center relative z-10">

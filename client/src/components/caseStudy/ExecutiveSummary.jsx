@@ -6,7 +6,7 @@ export default function ExecutiveSummary({ project }) {
   }
 
   return (
-    <section className="py-12 bg-slate-950 border-b border-slate-900">
+    <section id="summary" className="py-12 bg-slate-950 border-b border-slate-900">
       <div className="max-w-6xl mx-auto px-6">
         <div className="rounded-3xl bg-slate-900/60 border border-slate-800 p-8 md:p-10 backdrop-blur-sm">
           <span className="text-cyan-400 font-mono text-xs tracking-widest uppercase bg-cyan-500/10 px-3 py-1 rounded border border-cyan-500/20">

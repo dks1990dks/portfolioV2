@@ -51,7 +51,7 @@ export default function Navbar() {
 
         {/* Desktop CTA */}
         <Link
-          to="/contact"
+          to="/contact#discovery-form"
           className="hidden lg:block px-6 py-3 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold transition shadow-lg shadow-cyan-500/10"
         >
           Book Consultation

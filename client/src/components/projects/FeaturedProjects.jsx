@@ -3,14 +3,15 @@ import { projects } from "./projectsData";
 import StatusBadge from "./StatusBadge";
 
 export default function FeaturedProjects() {
-  const featured = projects
-    .filter((project) => project.featured)
-    .slice(0, 4);
+  const featured = projects.filter((project) => project.featured).slice(0, 4);
 
   if (!featured.length) return null;
 
   return (
-    <section className="py-16 bg-slate-950 border-b border-slate-900">
+    <section
+      id="featured"
+      className="py-16 bg-slate-950 border-b border-slate-900"
+    >
       <div className="max-w-7xl mx-auto px-6">
         {/* Section Header */}
         <div className="max-w-3xl mb-12">
@@ -23,8 +24,8 @@ export default function FeaturedProjects() {
           </h2>
 
           <p className="text-slate-400 mt-4 leading-7">
-            A selection of software products and business applications
-            currently featured in the portfolio.
+            A selection of software products and business applications currently
+            featured in the portfolio.
           </p>
         </div>
 

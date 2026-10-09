@@ -33,25 +33,26 @@ export default function HeroContent() {
       </p>
 
       {/* Action Buttons */}
-      <div className="flex flex-wrap gap-4 mt-10">
-        <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
-          <Link
-            to="/contact"
-            className="inline-block px-8 py-4 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold transition-colors shadow-lg shadow-cyan-500/20"
-          >
-            Start Project
-          </Link>
-        </motion.div>
+      {/* Action Buttons */}
+<div className="relative z-50 flex flex-wrap gap-4 mt-10">
+  <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
+    <Link
+      to="/contact#discovery-form"
+      className="inline-block px-8 py-4 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold transition-colors shadow-lg shadow-cyan-500/20"
+    >
+      Start Project
+    </Link>
+  </motion.div>
 
-        <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
-          <Link
-            to="/projects"
-            className="inline-block px-8 py-4 rounded-xl border border-slate-700 hover:border-cyan-400/50 hover:bg-slate-900/50 text-white font-semibold transition-all"
-          >
-            View Projects
-          </Link>
-        </motion.div>
-      </div>
+  <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
+    <Link
+      to="/projects#featured"
+      className="inline-block px-8 py-4 rounded-xl border border-slate-700 hover:border-cyan-400/50 hover:bg-slate-900/50 text-white font-semibold transition-all"
+    >
+      View Projects
+    </Link>
+  </motion.div>
+</div>
     </motion.div>
   );
 }

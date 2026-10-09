@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function ProjectsCTA() {
   return (
-    <section className="py-24 bg-slate-950">
+    <section id="cta" className="py-24 bg-slate-950">
       <div className="max-w-5xl mx-auto px-6">
         <div className="rounded-3xl bg-linear-to-r from-cyan-950/40 to-slate-900 border border-slate-900 p-12 text-center relative overflow-hidden">
           <div className="absolute inset-0 bg-cyan-500/5 blur-3xl pointer-events-none" />
@@ -19,7 +19,7 @@ export default function ProjectsCTA() {
 
           <div className="mt-8 relative z-10">
             <Link
-              to="/contact"
+              to="/contact#discovery-form"
               className="inline-block px-8 py-4 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold transition shadow-lg shadow-cyan-500/10"
             >
               Start a Conversation

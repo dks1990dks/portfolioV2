@@ -1,6 +1,8 @@
 import { Link, useParams } from "react-router-dom";
 import SEO from "../components/SEO/SEO";
 import { services } from "../components/services/servicesData";
+import Navbar from "../components/layout/Navbar";
+import Footer from "../components/footer/Footer";
 
 export default function ServiceDetails() {
   const { slug } = useParams();
@@ -62,8 +64,9 @@ export default function ServiceDetails() {
       />
 
       <main className="min-h-screen bg-slate-950 text-slate-100">
+        <Navbar />
         {/* Hero */}
-        <section className="px-6 pb-16 pt-24">
+        <section id="hero" className="px-6 pb-16 pt-24">
           <div className="mx-auto max-w-6xl">
             <Link
               to="/services"
@@ -100,7 +103,7 @@ export default function ServiceDetails() {
         </section>
 
         {/* Service Details */}
-        <section className="border-y border-slate-800 bg-slate-900/40 px-6 py-16">
+        <section id="overview" className="border-y border-slate-800 bg-slate-900/40 px-6 py-16">
           <div className="mx-auto grid max-w-6xl gap-10 lg:grid-cols-[1.5fr_1fr]">
             <div>
               <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">
@@ -141,7 +144,7 @@ export default function ServiceDetails() {
             </div>
 
             {/* Technology Stack */}
-            <aside className="rounded-2xl border border-slate-800 bg-slate-950 p-6">
+            <aside  id="technology" className="rounded-2xl border border-slate-800 bg-slate-950 p-6">
               <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">
                 Development Stack
               </p>
@@ -179,7 +182,7 @@ export default function ServiceDetails() {
         </section>
 
         {/* CTA */}
-        <section className="px-6 py-20">
+        <section id="cta" className="px-6 py-20">
           <div className="mx-auto max-w-4xl rounded-2xl border border-slate-800 bg-linear-to-br from-slate-900 to-slate-950 p-8 text-center sm:p-12">
             <p className="text-sm font-semibold uppercase tracking-wider text-sky-400">
               Start Your Project
@@ -195,13 +198,14 @@ export default function ServiceDetails() {
             </p>
 
             <Link
-              to="/contact"
+              to="/contact#discovery-form"
               className="mt-8 inline-flex rounded-lg bg-sky-500 px-6 py-3 font-semibold text-white transition hover:bg-sky-400"
             >
               Start a Conversation
             </Link>
           </div>
         </section>
+        <Footer />
       </main>
     </>
   );

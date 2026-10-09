@@ -74,7 +74,7 @@ export default function FooterBottom() {
 
         <div className="mt-4 relative z-10">
           <Link
-            to="/contact"
+            to="/contact#discovery-form"
             className="inline-block px-6 py-3 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-sm transition shadow-lg shadow-cyan-500/10"
           >
             Start a Conversation
